@@ -1,2 +1,7 @@
 # duke_source
- file Resource storage resource csv edu.duke package
+ duke learn to program used source code which can be used in vs code 
+ 
+ File resource
+ directory Resource
+ apache csv
+ etc...
