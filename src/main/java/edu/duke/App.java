@@ -15,6 +15,9 @@ public final class App {
         WordsInFiles obj = new WordsInFiles();
         obj.tester();
 
+        // GladLibMap obj = new GladLibMap();
+        // obj.makeStory();
+
 
 
         // DirectoryResource dr = new DirectoryResource();

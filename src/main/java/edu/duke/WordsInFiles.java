@@ -92,13 +92,13 @@ public class WordsInFiles {
         // System.out.println(wordFileMap);
         // 
         int maxNum = maxNumber();
-        System.out.println(maxNum);
+        // System.out.println(maxNum);
 
-        System.out.println(wordsInNumFiles(3));
+        System.out.println(wordsInNumFiles(4).size());
 
-        printFilesIn("cats");
+        // printFilesIn("cats");
 
-        System.out.println(wordFileMap);
+        // System.out.println(wordFileMap);
     }
     
 
