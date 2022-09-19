@@ -33,15 +33,9 @@ public class WordsInFiles {
             else {
                 ArrayList<String> fileName = new ArrayList<String>();
                 wordFileMap.put(word,fileName);
-                fileName.add(currFileName);
-                
-                
-                
-            }
-            
+                fileName.add(currFileName);    
+            }    
         }
-        
-        // System.out.println(wordFileMap);
     }
     
     public void buildWordFileMap(){
@@ -53,14 +47,12 @@ public class WordsInFiles {
     }
     
     public int maxNumber(){
-        // System.out.println(wordFileMap.keySet());
         int counter = 0;
         for (String s : wordFileMap.keySet()) {
                 // System.out.println(s+"\t" + wordFileMap.get(s));
                 if(wordFileMap.get(s).size() > counter){
                     counter=wordFileMap.get(s).size();
                 }
-                // System.out.println(s+ "\t"+wordFileMap.get(s).size());   
         }
         return counter;
     }
@@ -72,7 +64,6 @@ public class WordsInFiles {
                 wordsInNumFiles.add(s);
             }
         }
-
         return wordsInNumFiles;
     }
 
@@ -89,16 +80,9 @@ public class WordsInFiles {
     
     public void tester(){
         buildWordFileMap();
-        // System.out.println(wordFileMap);
-        // 
-        int maxNum = maxNumber();
-        // System.out.println(maxNum);
-
-        System.out.println(wordsInNumFiles(4).size());
-
-        // printFilesIn("cats");
-
-        // System.out.println(wordFileMap);
+        // int maxNum = maxNumber();
+        // System.out.println(wordsInNumFiles(5).size());
+        printFilesIn("red");
     }
     
 

@@ -2,6 +2,8 @@ package edu.duke;
 
 import java.io.*;
 
+import edu.duke.WebLogProgram.Tester;
+
 public final class App {
     private App() {
     }
@@ -17,6 +19,10 @@ public final class App {
 
         // GladLibMap obj = new GladLibMap();
         // obj.makeStory();
+
+        // Tester obj2 = new Tester();
+        // obj2.testLogAnalyzer();
+
 
 
 
