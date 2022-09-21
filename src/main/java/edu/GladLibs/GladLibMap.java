@@ -1,4 +1,4 @@
-package edu.duke;
+package edu.GladLibs;
 
 import edu.duke.*;
 import java.util.*;

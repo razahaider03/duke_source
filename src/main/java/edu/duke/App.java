@@ -2,7 +2,8 @@ package edu.duke;
 
 import java.io.*;
 
-import edu.duke.WebLogProgram.Tester;
+import edu.GladLibs.WordsInFiles;
+import edu.WebLogProgram.Tester;
 
 public final class App {
     private App() {
@@ -14,15 +15,19 @@ public final class App {
          * created an object of that class and then ran tester method
          */
         
-        WordsInFiles obj = new WordsInFiles();
-        obj.tester();
+        // WordsInFiles obj = new WordsInFiles();
+        // obj.tester();
 
         // GladLibMap obj = new GladLibMap();
         // obj.makeStory();
 
-        // Tester obj2 = new Tester();
-        // obj2.testLogAnalyzer();
-
+        
+        Tester ts = new Tester();
+        // ts.testLogAnalyzer();
+        // ts.testUniqueIP();
+        // ts.testHighStatusCode(); 
+        // ts.testUniqueIPVisitsOnDay();
+        ts.testCountUniqueIPsInRange();
 
 
 

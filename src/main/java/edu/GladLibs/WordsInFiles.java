@@ -1,4 +1,4 @@
-package edu.duke;
+package edu.GladLibs;
 /**
  * Write a description of WordsInFiles here.
  * 

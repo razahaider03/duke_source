@@ -1,4 +1,4 @@
-package edu.duke.WebLogProgram;
+package edu.WebLogProgram;
 
 /**
  * Write a description of class LogRecord here.

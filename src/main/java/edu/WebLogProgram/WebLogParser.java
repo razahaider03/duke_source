@@ -1,4 +1,4 @@
-package edu.duke.WebLogProgram;
+package edu.WebLogProgram;
 
 import java.text.*; 
 import java.util.*;
