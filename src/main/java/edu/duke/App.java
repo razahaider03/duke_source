@@ -27,7 +27,13 @@ public final class App {
         // ts.testUniqueIP();
         // ts.testHighStatusCode(); 
         // ts.testUniqueIPVisitsOnDay();
-        ts.testCountUniqueIPsInRange();
+        // ts.testCountUniqueIPsInRange();
+        // ts.testCountVisitsPerIP();
+        // ts.testMostNumberVisitsByIP();
+        // ts.testIPsMostVisits();
+        // ts.testIPsForDays();
+        // ts.testDayWithMostIPVisits();
+        ts.testIPsWithMostVisitsOnDay();
 
 
 

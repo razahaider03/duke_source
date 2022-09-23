@@ -59,4 +59,42 @@ public class Tester
         obj2.readFile("src\\main\\java\\edu\\WebLogProgram\\weblog1_log");
         System.out.println(obj2.countUniqueIPsInRange(300,399));
     }
+
+    public void testCountVisitsPerIP() {
+        LogAnalyzer obj = new LogAnalyzer();
+        obj.readFile("src\\main\\java\\edu\\WebLogProgram\\short-test_log");
+        System.out.println(obj.countVisitsPerIP());
+    }
+
+    public void testMostNumberVisitsByIP() {
+        LogAnalyzer obj = new LogAnalyzer();
+        obj.readFile("src\\main\\java\\edu\\WebLogProgram\\weblog1_log");
+        System.out.println(obj.mostNumberVisitsByIP(obj.countVisitsPerIP()));
+    }
+
+    public void testIPsMostVisits() {
+        LogAnalyzer obj = new LogAnalyzer();
+        obj.readFile("src\\main\\java\\edu\\WebLogProgram\\weblog1_log");
+        System.out.println(obj.iPsMostVisits(obj.countVisitsPerIP()));
+        
+    }
+
+    public void testIPsForDays() {
+        LogAnalyzer obj = new LogAnalyzer();
+        obj.readFile("src\\main\\java\\edu\\WebLogProgram\\weblog3-short_log");
+        System.out.println(obj.iPsForDays());
+    }
+
+    public void testDayWithMostIPVisits() {
+        LogAnalyzer obj = new LogAnalyzer();
+        obj.readFile("src\\main\\java\\edu\\WebLogProgram\\weblog1_log");
+        System.out.println(obj.dayWithMostIPVisits(obj.iPsForDays()));
+    }
+
+    public void testIPsWithMostVisitsOnDay() {
+        LogAnalyzer obj = new LogAnalyzer();
+        obj.readFile("src\\main\\java\\edu\\WebLogProgram\\weblog1_log");
+        System.out.println(obj.iPsWithMostVisitsOnDay(obj.iPsForDays(), "Mar 17"));
+        
+    }
 }
